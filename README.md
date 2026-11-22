@@ -18,10 +18,18 @@ Toutes les données sont enregistrées dans un fichier SQLite : rien n'est perdu
 
 ## 2. Installation et lancement
 
-**Prérequis** : Python 3.8 ou plus récent, et une connexion internet (seulement pour l'ajout de livres par ISBN).
+**Prérequis** : Python 3.8 ou plus récent, Git, et une connexion internet (pour cloner le dépôt et pour l'ajout de livres par ISBN).
+
+**Cloner le dépôt :**
 
 ```
-cd bibliotheque
+git clone https://github.com/kadjotimothee00-pixel/projet3_bibliotheque.git
+cd projet3_bibliotheque
+```
+
+**Installer les dépendances et lancer le programme :**
+
+```
 python -m venv .venv
 .venv\Scripts\activate            (Windows)
 source .venv/bin/activate         (Linux / macOS)
